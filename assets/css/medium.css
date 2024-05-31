@@ -1,0 +1,100 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffc017;
+  border-bottom: 2px solid black;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+nav button {
+  border: none;
+  background-color: #ffc017;
+}
+
+.paragrafiNav {
+  margin-left: auto;
+}
+
+nav img {
+  height: 50px;
+  margin-right: auto;
+}
+
+nav p {
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+nav p.NavElem {
+  font-weight: bold;
+  margin-right: auto;
+}
+
+.stayHungry {
+  text-align: left;
+  background-color: #ffc017;
+  padding-bottom: 30px;
+  border-bottom: 2px solid black;
+}
+
+.stayHungry h2 {
+  font-size: 60px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+
+h3 {
+  font-size: 18px;
+  align-self: center;
+  font-weight: 500;
+}
+
+.stayHungry p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+
+.stayHungry button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+.TitoloTrendings {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.boxTrending {
+  display: flex;
+
+  gap: 20px;
+  width: 400px;
+}
+
+.trending {
+  border: 1px solid black;
+}
